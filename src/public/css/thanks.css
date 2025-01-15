@@ -1,0 +1,48 @@
+body {
+    font-family: Inika;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    min-height: 100vh; /* 高さを確保して中央に配置 */
+}
+
+.thank-you-container {
+    background-color: #fff;
+    width: max-content;
+    position: absolute;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+h1 {
+    color: #8B7969;
+    font-size: 1.5em;
+    margin: 30px;
+}
+
+p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 8em;
+    color: rgba(0, 0, 0, 0.1);
+    z-index: 0;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.back-home-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #8B7969;
+    text-decoration: none;
+    z-index: 1;　/* ボタンを前面に表示 */
+}
+

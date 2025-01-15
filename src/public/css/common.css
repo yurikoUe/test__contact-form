@@ -1,0 +1,47 @@
+
+
+.header {
+    border-bottom: 2px solid #8B7969;
+    display: flex;
+    /* align-items: center; */
+    height: 80px;　/* ヘッダーの高さ */;
+    background-color: white;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header__logo {
+    color: #8B7969;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    margin: auto;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    /* 内側の余白 */
+    border: 1px solid #ccc;
+    margin: 20px;
+
+}
+
+.header__nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header__nav a {
+    text-decoration: none;
+    color: #BAA899;
+}
+

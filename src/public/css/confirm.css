@@ -1,0 +1,74 @@
+.confirm__title {
+    text-align: center;
+    color: #8B7969;
+    font-size: 25px;
+}
+
+.confirm__form {
+    margin: 10px;
+    border: none;
+    width: auto;
+    text-align: left;
+    color: #8B7969;
+}
+
+.confirm-table {
+    border: 1px solid #8b7969;
+    text-align: left;
+}
+
+.confirm-table th {
+    padding: 10px;
+    text-align: left;
+    width: 40%;
+    background-color: #8B7969;
+    color: white;
+    text-align: left;
+}
+
+.confirm-table td {
+    width: 60%;
+    text-align: left;
+    color: #8B7969;
+}
+
+.confirm-table__tel {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    /* 入力フィールドとハイフンの間のスペース */
+}
+
+
+
+
+.confirm__container {
+    justify-content: center;
+    align-items: left;
+    width: auto;
+    margin: 0 10%;
+}
+
+.confirm__actions {
+    display: flex;
+    justify-content: center;
+    /* 左寄せ */
+    gap: 10px;
+    /* ボタンとリンクの間にスペースを追加 */
+    margin: 20px 0;
+    /* 上部に少しスペースを追加 */
+}
+
+.confirm__actions button,
+.confirm__actions a {
+    padding: 5px 20px;
+    border: none;
+}
+
+.confirm__actions button{
+    background-color: #8B7969;
+    color: white;
+}
+.confirm__actions a {
+    text-align: center;
+}

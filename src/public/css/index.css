@@ -1,0 +1,111 @@
+.index__title {
+    text-align: center;
+    color: #8B7969;
+    font-size: 25px;
+}
+
+
+
+.contact__container {
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin: 0 10%;
+}
+
+.contact__form {
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    border: none;
+}
+
+.contact-table {
+    width: 90%;
+    margin: auto;
+    color: #8B7969;
+}
+
+.contact-table th {
+    padding: 10px;
+    text-align: left;
+    width: 40%;
+}
+
+.contact-table td{
+    width: 60%;
+}
+
+.required {
+    color: red;
+}
+
+.form-label {
+    vertical-align: top;
+        /* 上揃えに設定 */
+}
+
+.contact__input {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: #F4f4f4;
+    border: none;
+    color: #8B7969;
+    vertical-align: top; /* 上揃えに設定 */
+}
+
+.contact-table__gender,
+.contact-table__name {
+    display: flex;
+    justify-content: space-between;
+        /* もしくは space-around, space-evenly, center など */
+    align-items: center;
+        /* 子要素の縦位置を揃える */
+}
+
+.contact__input-name {
+    flex: 1;/* 各子要素が同じ幅を持つようにする */
+    margin: 0 5px;/* 子要素の間にスペースを追加 */
+}
+
+.contact-table__gender-0,
+.contact-table__gender-1,
+.contact-table__gender-2 {
+    display: flex;
+    width: auto;
+
+}
+
+.error {
+    color: red;
+}
+
+.contact-btn {
+    display: flex;
+    justify-content: center;
+    /* 水平方向の中央揃え */
+    align-items: center;
+    /* 垂直方向の中央揃え（必要に応じて） */
+    margin-top: 20px;
+}
+
+.contact-btn__submit {
+    background-color: #8B7969;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+}
+
+.contact-table__tel {
+    display: flex;
+    gap: 10px;
+    /* 各オプション間のスペース */
+}
+
+
+
+
+
+
